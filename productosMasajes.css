@@ -6,13 +6,9 @@ header {
 .caja{
     width: 940px;
     position:relative;
-    margin: 100 auto;
+    margin:auto;
 }
-nav{
-    position: absolute;
-    top: 0;
-    right:0;
-}
+
 nav li{
     display: inline;
     margin:0 0 0 15px
@@ -23,4 +19,86 @@ nav a{
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+}
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.productos li{
+display: inline-block;
+text-align: center;
+width: 100%;
+vertical-align: top;
+margin: 0 1.5% ;
+padding: 30px 20px;
+box-sizing: border-box;
+border: 3px solid #108763;
+border-radius: 20px;
+
+
+}
+.productos h2{
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.productos-descripcion{
+    font-size: 25px;
+
+}
+
+.productos-precios{
+font-size: 30px;
+font-weight: bold;
+margin-top: 10px;
+}
+
+nav a:hover{
+    color: #49e177;
+    text-decoration: underline;
+}
+.productos li:hover{
+    border-color:#19c745;
+}
+
+
+
+.productos li:active{
+    border-color:#a0ed10;
+    
+}
+.productos li:hover h2{
+    font-size: 50px;
+}
+.diferenciales{
+    padding: 3em 0;
+    background: #a4ecc6;
+}
+
+.contenido-diferenciales{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.lista-diferenciales{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.items{
+    line-height: 2.5;
+}
+
+.items:before{
+    content:"* "
+}
+
+.items:first-child{
+    font-weight:bold;
+}
+
+.imagen-diferenciales{
+    width: 30%;
 }

@@ -1,10 +1,13 @@
-.titulo-principal{
-    padding-left: 80px;
+
+body{
+    font-family: 'Helvetica', sans-serif;
+    background-color:#77caa7;
 }
 
-#banner{
-    width:100%;
 
+.titulo-principal{
+    text-align: center;
+    font-size: 40px;
 }
 
 .principal{
@@ -18,20 +21,22 @@
 }
 
 p{
-    text-align: center;
+    text-align:justify;
+    font-size: 30px;
+
 }
 
 em strong{
-    color:red;
+    color:rgb(14, 145, 47);
 }
 
 #mision{
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .diferenciales{
     background: #FFFFFF;
-    padding: 30px;
+    padding: 40px;
 }
 
 .items{
@@ -47,5 +52,6 @@ ul{
 
 .imagenDiferenciales{
     width: 50%;
+    opacity: 0;
 }
 

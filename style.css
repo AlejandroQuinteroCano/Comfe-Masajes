@@ -6,22 +6,22 @@ body{
 header {
     background-color: #77Caa7;
     padding: 150px;
-   
+ 
 }
-
 .caja{
-    
+  
     width: 940px;
     position:inherit;
-    margin: 0 auto;
+    margin: 2 auto;
+    background-color: #067748;
     
 }
 
 nav{
-    position: absolute;
+    position:-webkit-sticky;
     top:110px;
     right: 0;
-}
+    }
 
 nav li{
     display: inline;
@@ -35,37 +35,9 @@ nav a{
     font-size: 22px;
     text-decoration: none;
 }
-
 nav a:hover{
-    color: #c78c19;
+    color: #49e177;
     text-decoration: underline;
-}
-
-.productos{
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px;
-}
-
-
-.productos li{
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    border: 2px solid #000000;
-    border-radius: 10px;
-}
-
-.productos li:hover{
-    border-color:#c78c19;
-}
-
-.productos li:active{
-    border-color:#088c19;
 }
 
 .productos h2{
@@ -73,23 +45,10 @@ nav a:hover{
     font-weight: bold;
 }
 
-.productos li:hover h2{
-    font-size: 33px;
-}
 
-.producto-descripcion{
-    font-size: 18px;
-}
-
-.producto-precio{
-    font-size: 20px;
-    font-weight: bold;
-    margin-top:10px;
-}
 
 footer{
     text-align: center;
-    background: url(imagenes/bg.jpg);
     padding:40px;
     margin:20px;
 }
@@ -106,7 +65,7 @@ form{
 
 form label, form legend{
     display: block;
-    font-size: 20px;
+    font-size: 40px;
     margin: 0 0 10px;
 }
 
@@ -114,7 +73,7 @@ form label, form legend{
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
-    width: 50%;
+    width: 40%;
 }
 
 .checkbox{
@@ -122,7 +81,7 @@ form label, form legend{
 }
 
 .enviar{
-    width: 40%;
+    width: 30%;
     padding: 15px 0;
     font-size: 18px;
     font-weight: bold;
@@ -132,13 +91,29 @@ form label, form legend{
     border-radius: 5px;
     transition: 1s all;
     cursor:pointer;
+
 }
 
 .enviar:hover{
     background: rgb(19, 237, 190);
     transform: scale(1.2);
-}
+}.enviarReserva{
+    width: 30%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background: rgb(36, 215, 63);
+    border:none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer;
 
+}
+.enviarReserva:hover{
+    background: rgb(19, 237, 190);
+    transform: scale(1.2);
+}
 table{
     margin: 60px 60px;
 }
@@ -156,8 +131,7 @@ td,th{
 
 /*Aquí inicia el CSS para nuestra home*/
 .banner{
-    width:85%;
-   
+    width:100%;
     
 }
 
@@ -167,14 +141,19 @@ td,th{
     width: 940px;
     margin: 0 auto; 
 }
-
-.titulo-principal{
-    text-align: center;
+.titulo-principalUbicacion{
+    text-align:center;
     font-size: 2em;
     margin: 0 0 1em;
-    clear:left;
-}
 
+}
+.titulo-principalParque{
+    text-align:center;
+    font-size: 3em;
+    margin: 0 0 1em;
+    font-style:normal;
+    background-color: #e5f6ef;
+}
 .principal p{
     margin: 0 0 1em;
 }
@@ -208,37 +187,6 @@ td,th{
     margin: 0 auto;
 }
 
-.diferenciales{
-    padding: 3em 0;
-    background: #a4ecc6;
-}
-
-.contenido-diferenciales{
-    width: 640px;
-    margin: 0 auto;
-}
-
-.lista-diferenciales{
-    width: 40%;
-    display: inline-block;
-    vertical-align: top;
-}
-
-.items{
-    line-height: 1.5;
-}
-
-.items:before{
-    content:"★"
-}
-
-.items:first-child{
-    font-weight: bold;
-}
-
-.imagen-diferenciales{
-    width: 20%;
-}
 .footer{
     width: 75%;
     align-content: center;

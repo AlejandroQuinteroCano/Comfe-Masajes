@@ -15,13 +15,10 @@
             <div class="caja">
                 <nav>
                     <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="productosMasajes.html">Servicio SPA</a></li>
-                    <li><a href="index.html">Agendar Cita</a></li>
-                    
-                    <li><a href="contactosMasajes.html">Contactos</a></li>
-                   
-
+                        <li><a href="index.html"> INICIO </a></li>
+                        <li><a href="productosMasajes.html">SERVICIOS SPA</a></li>
+                        <li><a href="agendaMasajes.html">RESERVAS</a></li>
+                        <li><a href="contactosMasajes.html">CONTACTOS</a></li>
                     </ul>
                 </nav>
             </div>
@@ -31,39 +28,29 @@
 
         <main>
             <form>
-                    <fieldset>
-                    <legend>¿Seleccione tipo de docuento?</legend>
-                    <select>
-                        <option>Cedula de ciudadania</option>
-                        <option>Tarjeta Identidad</option>
-                        <option>Cedula extranjeria</option>
-                        <option>Registro Civil</option>
-                        <optgroup>Pasaporte</optgroup>
-                    </select>
-                </fieldset>
-                <input type="text" id="tipoDocumento" class="container__input" required>
-                
-
-                <label for="ingreseDocumento">Ingres numero de Documento</label>
-                <input type="number" id="Numero identificacion" class="container__input" required>
-
-                <div class="chute container__botones">
-                    <button onclick="validarDocumento();" class="container__boton">Validar afiliacion</button>
-                    <button onclick="validacionNuevo();"  class="container__boton" id="reiniciar">Nueva Validacion</button>
-                </div>
+                    
                 <label for="nombreapellido">Nombre y Apellido</label>
                 <input type="text" id="nombreapellido" class="input-padron">
 
                 <label for="correoelectronico">Categoria afiliacion</label>
                 <input type="email" id="correoelectronico" class="input-padron">
 
-                <label for="telefono">Teléfono</label>
-                <input type="tel" id="telefono" class="input-padron">
+                <label for="telefono">Teléfono</label> <input type="tel" id="telefono" class="input-padron">  
 
-                              
-                            
-                          
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
                 
+                <fieldset>
+                    <legend>¿Cómo le gustaría que lo contactemos?</legend>
+
+                    <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                    
+                    <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
+                    
+                    <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+                    
+              
+                 
                 <input type="submit" value="Enviar formulario" class="enviar">
 
             </form>
