@@ -1,10 +1,4 @@
 
-body{
-    font-family: 'Helvetica', sans-serif;
-    background-color:#77caa7;
-}
-
-
 .titulo-principal{
     text-align: center;
     font-size: 40px;
@@ -25,7 +19,11 @@ p{
     font-size: 30px;
 
 }
+.p-footer{
+    text-align:center;
+    font-size: 30px;
 
+}
 em strong{
     color:rgb(14, 145, 47);
 }
@@ -43,12 +41,6 @@ em strong{
     font-style: italic;
 }
 
-ul{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-}
 
 .imagenDiferenciales{
     width: 50%;

@@ -2,21 +2,21 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="agendaMasajes.html">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style-home.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="productosMasajes.css">
-    <title>ServicioSPA</title>
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="reset.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-    </head>
+    <title>ServicioSPA</title>    
+</head>
 <body>
 <header>
+    <h1 class="titulo-principal">RESERVA SPA</h1>
     <div class="caja">
-        <h1 class="titulo-principal">SERVICIOS SPA</h1>
+        
         <nav> 
             <ul>
             <li><a href="index.html"> INICIO </a></li>
@@ -50,11 +50,11 @@
 </div>
 <script src="agendaMasajes.js"></script>
 <main>
-    <ul> 
+    <ul class="productos"> 
         <li> 
-            <fieldset class="input-padron">
-                <legend>¿Seleccione tipo de documento?</legend>
-                <select>
+            <fieldset>
+                <h2><legend>¿Seleccione tipo de documento?</legend></h2>
+                <select class="input-padron">
                 <option>Cedula de ciudadania</option>
                 <option>Tarjeta Identidad</option>
                 <option>Cedula extranjeria</option>
@@ -64,15 +64,15 @@
         </fieldset>  
     </li>   
 <li>
-        <label for="ingreseDocumento">Ingrese numero de Documento</label><br>
+        <h2><label for="ingreseDocumento">Ingrese numero de Documento</label></h2><br>
         <input type="number" id="Numero identificacion" 
         class="input-padron" required>
     </li>
     <li>
-        <div class="chute container__botones">
-            <button onclick="validarDocumento();" 
-            class="enviarReserva">Validar afiliacion</button>
-            <button onclick="validacionNuevo();"  class="enviarReserva" id="reiniciar">Nueva Validacion</button>
+         <button onclick="validarDocumento();" 
+            class="enviarReserva">Validar Afiliacion</button>
+            <button onclick="validacionNuevo();" 
+             class="enviarReserva" id="reiniciar">Nueva Consulta</button>
         </div>
     
     </ul>

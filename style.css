@@ -1,58 +1,48 @@
 body{
     font-family: 'Helvetica', sans-serif;
-    background-color:#77caa7;
+    background-color:#b5e51e;
 }
 
-header {
-    background-color: #77Caa7;
-    padding: 150px;
+header{
+    background-color: #b5e51e;
+    padding: 30px;
  
 }
 .caja{
-  
     width: 940px;
-    position:inherit;
-    margin: 2 auto;
-    background-color: #067748;
-    
+    position:relative;
+    margin: 0 0 0 0;
+    background-color: #b5e51e;
 }
-
 nav{
-    position:-webkit-sticky;
-    top:110px;
+    position:absolute;
+    top:2px;
     right: 0;
     }
-
 nav li{
     display: inline;
-    margin: 0 0 0 15px;
+    margin: 0 0 0 10px;
 }
-
 nav a{
     text-transform: uppercase;
-    color: #000000;
+    color: #f5f8f5;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
 }
 nav a:hover{
-    color: #49e177;
+    color: #000000;
     text-decoration: underline;
 }
-
 .productos h2{
     font-size: 30px;
     font-weight: bold;
 }
-
-
-
 footer{
     text-align: center;
     padding:40px;
     margin:20px;
 }
-
 .copyright{
     color:#FFFFFF;
     font-size: 13px;
@@ -131,7 +121,7 @@ td,th{
 
 /*Aquí inicia el CSS para nuestra home*/
 .banner{
-    width:100%;
+    width:1%;
     
 }
 
@@ -190,9 +180,8 @@ td,th{
 .footer{
     width: 75%;
     align-content: center;
-    
-        text-align: center;
-        font-size: 2em;
+    text-align: center;
+  font-size: 2em;
         margin: 0 0 1em;
         
     }
@@ -294,4 +283,28 @@ circle {
  }
  path {
     fill: #fff;
+ }
+
+ .general{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+ }
+ .general li{
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    vertical-align: top;
+    font-weight:bolder; color: #FEFEFE;
+    text-decoration-color: #e5f6ef;
+    
+
+ }
+ .general h2{
+    font-size: 20PX;
+    font-weight: bold;
+    text-align: left;
+ }
+ .general p{
+    font-size: 15px;
  }
