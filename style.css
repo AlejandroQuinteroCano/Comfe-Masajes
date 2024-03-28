@@ -1,12 +1,18 @@
 body{
     font-family: 'Helvetica', sans-serif;
-    background-color:#b5e51e;
+    background-color:hwb(75 94% 5%);
 }
 
 header{
     background-color: #b5e51e;
     padding: 30px;
  
+}
+.imagen-logo{
+    width: 10%;
+    position: relative;
+      
+    
 }
 .caja{
     width: 940px;
@@ -126,10 +132,13 @@ td,th{
 }
 
 .principal{
-    padding: 3em 0;
-    background: #FEFEFE;
-    width: 940px;
-    margin: 0 auto; 
+    padding: 1em 0;
+    background: #accd76;
+    width: 100%;
+    margin: 0 0 0 0; 
+}
+.banner-principal{
+    width: 100%;
 }
 .titulo-principalUbicacion{
     text-align:center;
@@ -154,12 +163,6 @@ td,th{
 
 .principal em{
     font-style: italic;
-}
-
-.utensilios{
-    width: 120px;
-    float:left;
-    margin: 0 20px 20px 0;
 }
 
 .mapa{
@@ -296,8 +299,7 @@ circle {
     width: 33%;
     vertical-align: top;
     font-weight:bolder; color: #FEFEFE;
-    text-decoration-color: #e5f6ef;
-    
+      
 
  }
  .general h2{
