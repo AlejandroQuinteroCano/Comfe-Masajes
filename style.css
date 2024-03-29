@@ -309,4 +309,8 @@ circle {
  }
  .general p{
     font-size: 15px;
- }
+ }@media(max-width:600px){
+body{
+background-color: #000009
+}
+}
