@@ -265,12 +265,16 @@ td,th{
     margin: 1em auto;
 }
 @media screen and (max-width:480px){
+body{
+position: static;
+}
     h1{
         text-align: center;
     }
     nav{
         position: static;
     }
+.header,
     .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video {
         width: auto;
     }
