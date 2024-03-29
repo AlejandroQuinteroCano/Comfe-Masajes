@@ -1,6 +1,6 @@
 body{
     font-family: 'Helvetica', sans-serif;
-    background-color:hwb(75 94% 5%);
+    background-color:blue;
 }
 
 header{
@@ -309,8 +309,15 @@ circle {
  }
  .general p{
     font-size: 15px;
- }@media(max-width:600px){
+ }
+
+@media(max-width:600px){
 body{
 background-color: #000009
+}
+}
+@media(min-width:600px){
+body{
+background-color: steelblue
 }
 }
