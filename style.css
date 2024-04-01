@@ -325,12 +325,7 @@ footer{
  *{
     -webkit-box-sizing: border-box;
     box-sizing: border-box; }
-  
-  body {
-    background: -webkit-gradient(linear, left top, right top, from(rgb(89, 172, 111)), to(rgb(13, 182, 69)));
-    background: -webkit-linear-gradient(left, rgb(109, 155, 134), rgb(10, 146, 81));
-    background: -o-linear-gradient(left, rgb(106, 162, 129), rgb(37, 173, 80));
-    background: linear-gradient(to right, rgb(106, 144, 117), rgb(13, 157, 68)); }
+  
   
   .title {
     text-align: center;
